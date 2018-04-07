@@ -1,0 +1,20 @@
+/*Allow to start clean*/
+*,
+*::before,
+*::after{
+  /*
+  borders and paddings won't be added
+  to the total width or height of the element
+  */
+  margin:0;
+  padding:0;
+  box-sizing:inherit;
+}
+
+html{
+  //the definition of 1 rem is
+  font-size:62.5%; /*1rem is 10px*/
+}
+body{
+  box-sizing: border-box;
+}
